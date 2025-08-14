@@ -119,9 +119,12 @@ export default function Home() {
         >
           <img src={Logo} className={"mr-[10px]"} alt="" /> CAJ 查看
         </div>
-        {/*<div className={'pr-[16px] sm:pr-[32px] select-none'}>*/}
-        {/*    <a href="mailto:alew88102@gmail.com">Contact us</a>*/}
-        {/*</div>*/}
+        <div>
+          Visit our domain: <a href="https://caj2pdf.vercel.app">caj2pdf.vercel.app</a>
+        </div>
+        <div className={'pr-[16px] sm:pr-[32px] select-none'}>
+           <a href="mailto:alew88102@gmail.com">Contact us</a>
+        </div>
       </div>
       <div className="px-[16px] sm:px-[32px]  m-auto max-w-[1136px]  w-full mt-[30px] sm:mt-[60px]">
         <div
