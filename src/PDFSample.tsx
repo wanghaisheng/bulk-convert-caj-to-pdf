@@ -1,15 +1,15 @@
 import  {useCallback, useRef, useState} from 'react';
 import {useResizeObserver} from '@wojtekmaj/react-hooks';
 import {pdfjs, Document, Page} from 'react-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-import 'react-pdf/dist/esm/Page/TextLayer.css';
+import 'react-pdf/dist/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
 
 import './pdf-sample.css';
 
 import type {PDFDocumentProxy} from 'pdfjs-dist';
 import {CajFile} from "./Provider.tsx";
 
-pdfjs.GlobalWorkerOptions.workerSrc = '//unpkg.com/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs';
+pdfjs.GlobalWorkerOptions.workerSrc = '//unpkg.com/pdfjs-dist@5.4.296/build/pdf.worker.min.mjs';
 
 
 const options = {
